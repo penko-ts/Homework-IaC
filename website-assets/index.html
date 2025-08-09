@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #e0f2e9;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            background: #2e7d32;
+            color: white;
+            padding: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            animation: zoomIn 1.5s ease-in-out;
+        }
+        .project, .review {
+            background: white;
+            padding: 15px;
+            margin: 10px auto;
+            width: 50%;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .project:hover, .review:hover {
+            transform: scale(1.05);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes zoomIn {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        footer {
+            background: #2e7d32;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paul's Portfolio</h1>
+        <p>Web Developer | Designer | Creator</p>
+    </header>
+    
+    <img src="https://myterraformprojectwebsiteee2025.s3.eu-north-1.amazonaws.com/profile.png" alt="Paul's Profile Picture" class="profile-img">
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A personal portfolio showcasing skills and projects.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: E-commerce Website</h3>
+            <p>Built an online store using React and Firebase.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3: Blog Platform</h3>
+            <p>Developed a blogging site with user authentication.</p>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <h2>Client Reviews</h2>
+        <div class="review">
+            <p>"Paul is an amazing developer! His designs are outstanding." - John Doe</p>
+        </div>
+        <div class="review">
+            <p>"Delivered the project on time with great attention to detail." - Jane Smith</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Paul | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

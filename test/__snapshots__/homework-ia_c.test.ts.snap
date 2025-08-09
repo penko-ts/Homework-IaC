@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SQS Queue Created 1`] = `
+EmptyCdkProjectStack {
+  "_crossRegionReferences": false,
+  "_logicalIds": LogicalIDs {
+    "renames": {},
+    "reverse": {},
+  },
+  "_missingContext": [],
+  "_notificationArns": undefined,
+  "_stackDependencies": {},
+  "_stackName": "TestStack",
+  "_suppressTemplateIndentation": false,
+  "_terminationProtection": false,
+  "_versionReportingEnabled": undefined,
+  "account": "\${Token[AWS.AccountId.6]}",
+  "artifactId": "TestStack",
+  "environment": "aws://unknown-account/unknown-region",
+  "node": Node {
+    "_children": {},
+    "_context": {},
+    "_dependencies": Set {},
+    "_locked": false,
+    "_metadata": [],
+    "_validations": [],
+    "host": [Circular],
+    "id": "TestStack",
+    "scope": App {
+      "_assemblyBuilder": CloudAssemblyBuilder {
+        "artifacts": {},
+        "assetOutdir": "C:\\Users\\lache\\AppData\\Local\\Temp\\cdk.outCVlilk",
+        "missing": [],
+        "outdir": "C:\\Users\\lache\\AppData\\Local\\Temp\\cdk.outCVlilk",
+        "parentBuilder": undefined,
+      },
+      "_treeMetadata": true,
+      "account": undefined,
+      "constructPathsCache": Set {},
+      "node": Node {
+        "_children": {
+          "TestStack": [Circular],
+        },
+        "_context": {},
+        "_dependencies": Set {},
+        "_locked": false,
+        "_metadata": [],
+        "_validations": [],
+        "host": [Circular],
+        "id": "",
+        "scope": undefined,
+      },
+      "parentStage": undefined,
+      "policyValidationBeta1": [],
+      "region": undefined,
+      "stageName": "",
+      Symbol(@aws-cdk/core.DependableTrait): {
+        "dependencyRoots": [
+          [Circular],
+        ],
+      },
+    },
+  },
+  "region": "\${Token[AWS.Region.10]}",
+  "synthesizer": DefaultStackSynthesizer {
+    "_boundStack": [Circular],
+    "_cloudFormationExecutionRoleArn": "arn:\${AWS::Partition}:iam::\${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-\${AWS::AccountId}-\${AWS::Region}",
+    "_deployRoleArn": "arn:\${AWS::Partition}:iam::\${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-\${AWS::AccountId}-\${AWS::Region}",
+    "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+    "bucketName": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+    "bucketPrefix": "",
+    "dockerTagPrefix": "",
+    "fileAssetPublishingRoleArn": "arn:\${AWS::Partition}:iam::\${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-\${AWS::AccountId}-\${AWS::Region}",
+    "imageAssetPublishingRoleArn": "arn:\${AWS::Partition}:iam::\${AWS::AccountId}:role/cdk-hnb659fds-image-publishing-role-\${AWS::AccountId}-\${AWS::Region}",
+    "lookupRoleArn": "arn:\${AWS::Partition}:iam::\${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-\${AWS::AccountId}-\${AWS::Region}",
+    "qualifier": "hnb659fds",
+    "repositoryName": "cdk-hnb659fds-container-assets-\${AWS::AccountId}-\${AWS::Region}",
+  },
+  "tags": TagManager {
+    "didHaveInitialTags": false,
+    "externalTagPriority": 50,
+    "priorities": Map {},
+    "renderedTags": "<unresolved-lazy>",
+    "resourceTypeName": "aws:cdk:stack",
+    "tagFormatter": KeyValueFormatter {},
+    "tagPropertyName": "tags",
+    "tags": Map {},
+  },
+  "templateFile": "TestStack.template.json",
+  "templateOptions": {},
+  Symbol(@aws-cdk/core.DependableTrait): {
+    "dependencyRoots": [
+      [Circular],
+    ],
+  },
+}
+`;
